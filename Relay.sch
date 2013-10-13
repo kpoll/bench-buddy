@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 7 9
 Title ""
-Date "29 sep 2013"
+Date "13 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -178,17 +178,6 @@ F 3 "~" H 6550 1800 30  0000 C CNN
 	1    6550 1800
 	-1   0    0    1   
 $EndComp
-$Comp
-L +12V #PWR?
-U 1 1 5248B306
-P 6550 1450
-F 0 "#PWR?" H 6550 1400 20  0001 C CNN
-F 1 "+12V" H 6550 1550 30  0000 C CNN
-F 2 "~" H 6550 1450 60  0000 C CNN
-F 3 "~" H 6550 1450 60  0000 C CNN
-	1    6550 1450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6550 1550 6550 1450
 Wire Wire Line
@@ -256,4 +245,15 @@ Wire Wire Line
 Wire Wire Line
 	7200 3300 7750 3300
 Connection ~ 7750 3300
+$Comp
+L +12P #PWR?
+U 1 1 5248E7CB
+P 6550 1450
+F 0 "#PWR?" H 6550 1420 30  0001 C CNN
+F 1 "+12P" H 6550 1550 30  0000 C CNN
+F 2 "~" H 6550 1450 60  0000 C CNN
+F 3 "~" H 6550 1450 60  0000 C CNN
+	1    6550 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

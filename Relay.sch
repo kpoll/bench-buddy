@@ -46,13 +46,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 3050 3350 0    60   Input ~ 0
-Din+
+RELAY+
 Text HLabel 3050 3700 0    60   Output ~ 0
-Din-
+RELAY-
 Text HLabel 8950 2350 2    60   BiDi ~ 0
-NC
+RELAY_NC
 Text HLabel 8950 2550 2    60   BiDi ~ 0
-NO
+RELAY_NO
 $Comp
 L PHTRANS U?
 U 1 1 5248AD5A
@@ -109,7 +109,7 @@ F 3 "~" H 8250 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 7250 2450 0    60   BiDi ~ 0
-COM
+RELAY_COM
 Wire Wire Line
 	8950 2550 8650 2550
 Wire Wire Line

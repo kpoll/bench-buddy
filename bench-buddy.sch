@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title ""
-Date "13 oct 2013"
+Date "14 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -100,10 +100,9 @@ S 5200 5100 1300 700
 U 523653EF
 F0 "LEDdriver" 50
 F1 "LEDdriver.sch" 50
-F2 "EN" I L 5200 5300 60 
-F3 "FREQ" I L 5200 5550 60 
-F4 "String+" O R 6500 5300 60 
-F5 "String-" I R 6500 5550 60 
+F2 "String+" O R 6500 5300 60 
+F3 "String-" I R 6500 5550 60 
+F4 "LED_EN_PWM" I L 5200 5300 60 
 $EndSheet
 $Sheet
 S 5200 6050 1300 700 
